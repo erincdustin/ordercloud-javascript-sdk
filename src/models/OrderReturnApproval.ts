@@ -1,8 +1,8 @@
 import { ApprovalStatus } from './ApprovalStatus';
 import { User } from './User';
 
-export interface OrderApproval<TApproverXp = any> {
-    readonly AllowResubmit?: boolean
+export interface OrderReturnApproval<TApproverXp = any> {
+    OrderReturnID?: string
     readonly ApprovalRuleID?: string
     readonly ApprovingGroupID?: string
     readonly Status?: ApprovalStatus
