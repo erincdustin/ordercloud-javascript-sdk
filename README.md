@@ -206,6 +206,7 @@ Simply set the options you need to override and the SDK will merge it with the d
 import { Configuration } from 'ordercloud-javascript-sdk';
 
 Configuration.Set({
+  // This URL can be found on your dashboard or in the upper right hand context menu of your OrderCloud application in Sitecore Portal.
   baseApiUrl: 'https://sandboxapi.ordercloud.io',
   timeoutInMilliseconds: 20 * 1000
 })

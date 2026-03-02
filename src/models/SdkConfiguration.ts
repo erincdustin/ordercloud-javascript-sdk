@@ -4,6 +4,7 @@ export interface SdkConfiguration {
   /**
    * The apiurl that will be used to talk to the ordercloud API.
    * It may be useful to change this to interact with different environments
+   * This URL can be found on your dashboard or in the upper right hand context menu of your OrderCloud application in Sitecore Portal.
    *
    * Defaults to: https://api.ordercloud.io
    */

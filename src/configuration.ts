@@ -2,6 +2,7 @@ import { SdkConfiguration } from './models'
 
 class Configuration {
   private defaultConfig: SdkConfiguration = {
+    // This URL can be found on your dashboard or in the upper right hand context menu of your OrderCloud application in Sitecore Portal.
     baseApiUrl: 'https://api.ordercloud.io',
     apiVersion: 'v1',
     timeoutInMilliseconds: 60 * 1000, // 60 seconds by default
